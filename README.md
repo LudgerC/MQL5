@@ -67,16 +67,22 @@ Klik met de rechtermuisknop op de grafiek.
 ### 3️⃣ Activeren van producten / symbolen
 Druk op **Ctrl + U** om het venster **“Symbolen”** te openen.  
 Activeer hier alle activa (valutaparen, metalen, crypto, enz.) die je wilt kunnen traden.  
+
 <img width="656" height="459" alt="image" src="https://github.com/user-attachments/assets/ef57a50e-9ccd-42e7-b1dc-e5955fdf4940" />
+
 Dan druk op **Ctrl + M** en open een vester voor de symbolen dat je geactiveerd heb.
+
 <img width="291" height="256" alt="image" src="https://github.com/user-attachments/assets/f03cd686-5046-4984-bf2f-0d0729883a9b" />
 
 ---
 
 ### 4️⃣ Download en installeer de indicator
 Download het `.ex5`-bestand van deze GitHub-repository.  
+
 <img width="344" height="67" alt="image" src="https://github.com/user-attachments/assets/5fe186c5-f024-4482-9b9c-9b4ab641d87e" />
+
 <img width="1548" height="137" alt="image" src="https://github.com/user-attachments/assets/ce5aaf01-ae64-4a0a-8642-0c1575c48287" />
+
 Voeg het vervolgens toe aan de juiste map in MetaTrader 5:  
 
 
