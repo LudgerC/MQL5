@@ -47,7 +47,9 @@ Download **MetaTrader 5** via de officiële site of via het platform van je brok
 Open **MT5** en volg deze stappen om de juiste instellingen te doen voor het gebruik van de indicator.  
 
 Klik met de rechtermuisknop op de grafiek.
+
 🖼️ <img width="331" height="768" alt="image" src="https://github.com/user-attachments/assets/b269a839-d49f-4465-abeb-2b5a11643e31" />
+
 ga naar properties en gebruike deze instellingen.
 
 🖼️<img width="752" height="490" alt="image" src="https://github.com/user-attachments/assets/da3e76b3-b556-46a0-bf21-051a5e1f6535" />
