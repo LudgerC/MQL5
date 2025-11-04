@@ -36,5 +36,29 @@ De tool combineert **patroondetectie** met **trendbepaling** via meerdere *Simpl
 ---
 
 ## ⚙️ Installatie en gebruik
-1. Open **MetaTrader 5**.  
-2. Ga naar:  
+
+### 1️⃣ Download MetaTrader 5
+Download **MetaTrader 5** via de officiële site of via het platform van je broker.  
+👉 [MetaTrader 5 - Officiële website](https://www.metatrader5.com/en/download)
+
+---
+
+### 2️⃣ Instellingen in MetaTrader 5
+Open **MT5** en volg deze stappen om de juiste instellingen te doen voor het gebruik van de indicator.  
+
+🖼️ _[Screenshot 1 – instellingenvenster]_  
+
+---
+
+### 3️⃣ Activeren van producten / symbolen
+Druk op **Ctrl + U** om het venster **“Symbolen”** te openen.  
+Activeer hier alle activa (valutaparen, metalen, crypto, enz.) die je wilt kunnen traden.  
+
+🖼️ _[Screenshot 2 – Symbolenbeheer]_  
+
+---
+
+### 4️⃣ Download en installeer de indicator
+Download het `.mq5`-bestand van deze GitHub-repository.  
+Voeg het vervolgens toe aan de juiste map in MetaTrader 5:  
+
