@@ -49,10 +49,13 @@ Open **MT5** en volg deze stappen om de juiste instellingen te doen voor het geb
 Klik met de rechtermuisknop op de grafiek.
 🖼️ <img width="331" height="768" alt="image" src="https://github.com/user-attachments/assets/b269a839-d49f-4465-abeb-2b5a11643e31" />
 ga naar properties en gebruike deze instellingen.
+
 🖼️<img width="752" height="490" alt="image" src="https://github.com/user-attachments/assets/da3e76b3-b556-46a0-bf21-051a5e1f6535" />
 🖼️<img width="725" height="480" alt="image" src="https://github.com/user-attachments/assets/f27a90f9-1f1d-4f15-9888-e2297d853e68" />
+
 Bewaar het template als Default.tpl.
 Klik met de rechtermuisknop op de grafiek.
+
 🖼️<img width="558" height="564" alt="image" src="https://github.com/user-attachments/assets/b016d99d-d00b-489b-9bca-e3e972356e31" />
 🖼️<img width="961" height="499" alt="image" src="https://github.com/user-attachments/assets/e8368a8d-8e1d-4134-91e0-4d691cd93dc5" />
 
