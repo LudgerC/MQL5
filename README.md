@@ -47,6 +47,8 @@ Download **MetaTrader 5** via de officiële site of via het platform van je brok
 Open **MT5** en volg deze stappen om de juiste instellingen te doen voor het gebruik van de indicator.  
 
 🖼️ _[Screenshot 1 – instellingenvenster]_  
+<img width="331" height="768" alt="image" src="https://github.com/user-attachments/assets/b269a839-d49f-4465-abeb-2b5a11643e31" />
+
 
 ---
 
@@ -59,6 +61,6 @@ Activeer hier alle activa (valutaparen, metalen, crypto, enz.) die je wilt kunne
 ---
 
 ### 4️⃣ Download en installeer de indicator
-Download het `.mq5`-bestand van deze GitHub-repository.  
+Download het `.ex5`-bestand van deze GitHub-repository.  
 Voeg het vervolgens toe aan de juiste map in MetaTrader 5:  
 
