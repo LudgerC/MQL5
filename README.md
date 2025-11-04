@@ -83,6 +83,17 @@ Download het `.ex5`-bestand van deze GitHub-repository.
 
 <img width="1548" height="137" alt="image" src="https://github.com/user-attachments/assets/ce5aaf01-ae64-4a0a-8642-0c1575c48287" />
 
-Voeg het vervolgens toe aan de juiste map in MetaTrader 5:  
+Voeg het vervolgens toe aan de juiste map in MetaTrader 5:
+
+<img width="269" height="221" alt="image" src="https://github.com/user-attachments/assets/7c6b7188-01b9-47dc-8786-a2cb2342c01a" />
+
+open MQL5:
+
+<img width="637" height="189" alt="image" src="https://github.com/user-attachments/assets/f238d985-774c-4920-934c-eb7fada23ca1" />
+
+
+
+
+
 
 
