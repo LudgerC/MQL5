@@ -329,7 +329,7 @@ De indicator combineert:
 ---
 
 ## 📚 Gebruikte bronnen
-- [MQL5 Documentation]([mql5.zip](https://github.com/user-attachments/files/23371044/mql5.zip))
+- [MQL5 Documentation] [mql5.zip](https://github.com/user-attachments/files/23371099/mql5.zip)
 - [MQL5 Documentation – Indicator Functions](https://www.mql5.com/en/docs/series/iMA)  
 - [MQL5 Reference – OnCalculate()](https://www.mql5.com/en/docs/event_handlers/oncalculate)  
 - [MetaTrader 5 User Guide](https://www.metatrader5.com/en/terminal/help)  
