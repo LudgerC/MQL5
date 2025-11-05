@@ -70,7 +70,7 @@ Activeer hier alle activa (valutaparen, metalen, crypto, enz.) die je wilt kunne
 
 <img width="656" height="459" alt="image" src="https://github.com/user-attachments/assets/ef57a50e-9ccd-42e7-b1dc-e5955fdf4940" />
 
-Dan druk op **Ctrl + M** en open een vester voor de symbolen dat je geactiveerd heb.
+Druk daarna op Ctrl + M om het venster “Market Watch” te openen, zodat je de geactiveerde symbolen kunt zien.
 
 <img width="291" height="256" alt="image" src="https://github.com/user-attachments/assets/f03cd686-5046-4984-bf2f-0d0729883a9b" />
 
@@ -87,19 +87,19 @@ Voeg het vervolgens toe aan de juiste map in MetaTrader 5:
 
 <img width="269" height="221" alt="image" src="https://github.com/user-attachments/assets/7c6b7188-01b9-47dc-8786-a2cb2342c01a" />
 
-open MQL5:
+Open de map “MQL5”:
 
 <img width="637" height="189" alt="image" src="https://github.com/user-attachments/assets/f238d985-774c-4920-934c-eb7fada23ca1" />
 
-open Indicators:
+Open de map “Indicators”:
 
 <img width="835" height="478" alt="image" src="https://github.com/user-attachments/assets/ae2ce5fa-3680-4dad-812e-5e029437ed2f" />
 
-Open een niuewe file explorer vind de indicator file (meestal is dat in de download) en kopier die:
+Open een nieuw Verkenner-venster, zoek het gedownloade indicatorbestand (meestal in “Downloads”) en kopieer het:
 
 <img width="491" height="457" alt="image" src="https://github.com/user-attachments/assets/f71d8355-216a-456d-b1e2-82e296236e7e" />
 
-Paste de indicator file in Indicators:
+Plak het bestand in de map “Indicators”:
 
 <img width="643" height="226" alt="image" src="https://github.com/user-attachments/assets/a7c7ed8b-e09c-4ec1-b62b-25ae90793550" />
 
@@ -108,35 +108,34 @@ Druk op **Ctrl + N** om het venster **“Navigator”** te openen, en zoek Indic
 
 <img width="266" height="242" alt="image" src="https://github.com/user-attachments/assets/6d1271b5-c9de-4cdc-be49-377e77385f99" />
 
-Open de grafiek dat jij wilt en op de Indicator in de Navigator klik met de rechtermuisknop en dan op "Attach to chart".
+Open de grafiek die je wilt gebruiken, klik met de rechtermuisknop op de indicator in de Navigator en kies “Attach to chart”.
 dit pop-up zal open zijn waar jij kan het indicator inputs aanpassen en het colors:
 
 <img width="572" height="307" alt="image" src="https://github.com/user-attachments/assets/1de7bd6e-c6d5-4bee-8dd9-c7958029483a" />
 
 <img width="559" height="272" alt="image" src="https://github.com/user-attachments/assets/3e7991c3-afe1-4ad7-883c-935dc9c52e08" />
 
-In ***visualization*** jij kan aanpassen op welke timeframes de indicator zal werken 
-(standard werk de indicator zones enkel van Grafieken van 4 uren tot het weekels grafieken). 
+In het tabblad “Visualization” kun je kiezen op welke timeframes de indicator zichtbaar is (standaard werkt de zone-detectie van H4 t/m W1).
 
 <img width="561" height="277" alt="image" src="https://github.com/user-attachments/assets/24c5a576-0e06-41f1-8def-c8d50c858017" />
 
-dan klik op "ok" en het Indicator zal beginen te werken: 
+Klik op “OK” en de indicator wordt actief:
 
 <img width="891" height="479" alt="image" src="https://github.com/user-attachments/assets/dcdc4871-369e-40fb-b2c3-72bbaee9f442" />
 
-Recht bovenaan kan jij het Trend zien, de trend is of kopen of verkopen. 
+Rechtsboven zie je de Trend-status (bijv. Strong Buy, Buy, Sell, Strong Sell).
 
 <img width="254" height="91" alt="image" src="https://github.com/user-attachments/assets/ee9c56d8-f36b-4c02-a69c-e0e202d7f77f" />
 
 Er zal ook de zones zijn, dan elke gebruiker kan zijn eigen manier gebruiken om te traden, sommige start de trading manuel en wanneer het prijs de zone raakt. 
-Om te traden raad ik om mijn manier te gebruiken, ik werk met **pending order** dus het trade start automatisch wanneer het prijs op een speciefiek prijs. 
-Ik start mijn trading altijd in het midden van de zone en mijn stop loss (het maximum risico dat ik accepteert te verliezen) en de take profit (het winst) is het dubbel van de risico. 
+Ik gebruik meestal Pending Orders, zodat de trade automatisch start wanneer de prijs de zone raakt. 
+Ik plaats de instap in het midden van de zone. Mijn Stop Loss ligt net buiten de zone, en mijn Take Profit is 2× zo groot als mijn risico (Risk/Reward = 1:2).
 Om de bereking te doen van de lots (lots is wat definieert hoeveel geld in zal instekken in het trade, elke symbool heeft zijn eigen waarde per lot) ik gebruik een tool van de market dat ik zal u ook raden om te gebruiken. 
 
 Ga naar bovenrecht op deze icon:
 <img width="83" height="50" alt="image" src="https://github.com/user-attachments/assets/e62be6fc-46fa-47e7-8073-7dcd638b4d29" />
 
-daar zal jij een account mql5 moeten maken (jij kan dit account gebruiken in andere MT5, in het gevaal dat jij gebruikt een MQL5 van een broker, jij heb een broker sowieso nodig, maar elke broker kan zijn              eigen MT5 maken of jij kan gewoon de MT5 van MetaTrader5 direct gebruiken maar zal jij moet specifieren bij welke brooker jij bent en welke server, alles deze info's krijg jij van een brooker. bij Metatrader zelf kan jij een demo account maken zonder een brooker)
+daar zal jij een account mql5 moeten maken (jij kan dit account gebruiken in andere MT5, in het gevaal dat jij gebruikt een MQL5 van een broker, jij heb een broker sowieso nodig, maar elke broker kan zijn           eigen MT5 maken of jij kan gewoon de MT5 van MetaTrader5 direct gebruiken maar zal jij moet specifieren bij welke brooker jij bent en welke server, alles deze info's krijg jij van een brooker. bij Metatrader zelf kan jij een demo account maken zonder een brooker)
 
 wanneer jij ingelog bent in MQL5 jij zal kunnen naar de market gaan, druk **Ctrl + T** jij zal de terminal openen:
 
@@ -276,7 +275,7 @@ om de order te verwijderen kan jij dubbel klikken op de gronen strepje en het za
 
 <img width="715" height="377" alt="image" src="https://github.com/user-attachments/assets/891a2418-c516-4374-9af4-73680081cc3f" />
 
-of open de terminal (**Crtl + T**) e zoek jou order in de lijst en druk op een kruis voor "place":
+Open de Terminal (Ctrl + T), zoek je order in de lijst en klik op het kruisje om deze te verwijderen:
 
 <img width="1887" height="31" alt="image" src="https://github.com/user-attachments/assets/76df2856-d3e3-4cd0-b23c-81232cbd06e8" />
 
@@ -284,11 +283,11 @@ jij kan ook dit doen voor een order die al geopen bent, bv:
 
 <img width="1883" height="68" alt="image" src="https://github.com/user-attachments/assets/9612b66a-7c98-4d1f-803b-63b2c3c113bd" />
 
-!!!! Sommige symbolen acepteer niet een trade met 0.06 (micro lot), ze werken enkel met een volledig lot bv 1.00, 2.00.. dus jij zou niet kunnen traden, bv JP255:
+!!!! Sommige symbolen accepteren geen kleine lot-grootte (bijv. 0.06). Ze vereisen een grotere minimale lot size, zoals 1.00 of zelfs 10.00. In dat geval kun je niet traden met een klein account.
 
 <img width="819" height="370" alt="image" src="https://github.com/user-attachments/assets/f51cdfac-978c-4928-b52b-27ce08e01a20" />
 
-Het informaties is correct ingevuld, maar het minimum lot voor deze symbool is 10.00 lot, dit zou ik nooit kunnen openen met mijn actuele capital zonder een grote risico te nemen, of ik trade met meer capital of ik zoek een andere broker, in een andere broker kan het zijn dat ze laat traden met 0.01 om te controleren het minimal volume van een symbool jij moet drukken op **Ctrl + M** dan zoeken de sybmnool dat we willen en naar de "specification" gaan:
+Het informaties is correct ingevuld, maar het minimum lot voor deze symbool is 10.00 lot, dit zou ik nooit kunnen openen met mijn actuele capital zonder een grote risico te nemen, of ik trade met meer capital of ik zoek een andere broker, in een andere broker kan het zijn dat ze laat traden met 0.01 Om de minimale lot-grootte van een symbool te controleren, druk op Ctrl + M, klik op het symbool en kies “Specifications”:
 
 <img width="282" height="340" alt="image" src="https://github.com/user-attachments/assets/33fdc78f-f61a-4012-9279-2b3aa1a6b215" />
 
