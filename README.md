@@ -330,9 +330,6 @@ De indicator combineert:
 
 ## 📚 Gebruikte bronnen
 - [MQL5 Documentation] [mql5.zip](https://github.com/user-attachments/files/23371099/mql5.zip)
-- [MQL5 Documentation – Indicator Functions](https://www.mql5.com/en/docs/series/iMA)  
-- [MQL5 Reference – OnCalculate()](https://www.mql5.com/en/docs/event_handlers/oncalculate)  
-- [MetaTrader 5 User Guide](https://www.metatrader5.com/en/terminal/help)  
 - [ChatGPT (OpenAI) – ondersteuning bij debuggen en structuur van logica] (https://chatgpt.com/g/g-p-68e2f91c84608191877c474ba9e5c2fa-mql5-programming/project)
 - YouTube: (https://www.youtube.com/watch?v=T4_cnxomuXQ&list=PLSm2ktNgwGpsVskTX_kgLxqRgULnWnpOZ).  
 
@@ -346,7 +343,6 @@ Laatste update: eerste stabiele release met automatische zoneherkenning en multi
 
 ## 🧑‍💻 Licentie
 Dit project is uitsluitend bedoeld voor **educatieve en onderzoeksdoeleinden**.  
-Het mag vrij worden gebruikt en aangepast met bronvermelding van de auteur.
 
 ---
 
