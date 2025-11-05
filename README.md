@@ -273,6 +273,7 @@ om de order te verwijderen kan jij dubbel klikken op de gronen strepje en het za
 
 <img width="203" height="50" alt="image" src="https://github.com/user-attachments/assets/e7565025-af44-415a-b9a8-71c49b001784" />
 
+
 <img width="715" height="377" alt="image" src="https://github.com/user-attachments/assets/891a2418-c516-4374-9af4-73680081cc3f" />
 
 Open de Terminal (Ctrl + T), zoek je order in de lijst en klik op het kruisje om deze te verwijderen:
