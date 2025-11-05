@@ -76,7 +76,7 @@ Druk daarna op Ctrl + M om het venster “Market Watch” te openen, zodat je de
 
 ---
 
-### 4️⃣ Download en installeer de indicator
+### 4️⃣ Download, installeer en gebruik de indicator
 Download het `.ex5`-bestand van deze GitHub-repository.  
 
 <img width="344" height="67" alt="image" src="https://github.com/user-attachments/assets/5fe186c5-f024-4482-9b9c-9b4ab641d87e" />
@@ -294,7 +294,61 @@ Het informaties is correct ingevuld, maar het minimum lot voor deze symbool is 1
 
 <img width="855" height="87" alt="image" src="https://github.com/user-attachments/assets/ca2ed4ac-2032-40c6-9574-18ec0119b50a" />
 
+---
 
+## 🧩 Functies en logica
+
+| Functie | Beschrijving |
+|----------|---------------|
+| `OnInit()` | Initialiseert de indicator, laadt parameters, creëert SMA-handles en stelt de buffers in. |
+| `OnCalculate()` | Wordt bij elke nieuwe candle uitgevoerd. Detecteert sterke candles, patronen en trend, en tekent zones/SMA’s. |
+| `DrawForceZone()` | Tekenfunctie die *supply/demand*-zones visueel weergeeft op basis van de gevonden patronen. |
+| `ShowTrendText()` | Toont de huidige marktrichting op de grafiek (“Strong Buy”, “Strong Sell”, enz.). |
+| `ClearForceZones()` | Verwijdert oude zones bij het wisselen van timeframe of bij de-initialisatie. |
+| `OnChartEvent()` | Hertekent de grafiek bij veranderingen (zoals timeframe switch). |
+| `OnDeinit()` | Ruimt alle objecten op bij het sluiten van de indicator. |
+
+---
+
+## 📊 Logische structuur
+De indicator combineert:
+- **Kleurcandles** (via buffers `DropBuffer1-4` en `DropColors`)  
+- **Vier SMA’s** voor trendrichting (`21`, `50`, `100`, `200`)  
+- **Detectie van sterke candles** (met variabele `candlesconfig`)  
+- **Visuele zones** die automatisch verschijnen wanneer een geldig patroon en trend overeenkomen.  
+- **Trendlabel** dat dynamisch de sterkte van de trend toont rechtsboven in het scherm.
+
+---
+
+## 🧪 Testing & Kwaliteit
+- Regelmatige tests uitgevoerd op **XAUUSD**, **XAGUSD** en **EURUSD** in de timeframes **H4** en **D1**.  
+- Indicator getest op performance (limiteert berekeningen tot de laatste 200 candles voor efficiëntie).  
+- Visueel gevalideerd dat de patronen correct worden herkend en zones worden getekend.  
+- Fouten gelogd via `Print()` en `Alert()` om debugging te vereenvoudigen.
+
+---
+
+## 📚 Gebruikte bronnen
+- [MQL5 Documentation]([mql5.zip](https://github.com/user-attachments/files/23371044/mql5.zip))
+- [MQL5 Documentation – Indicator Functions](https://www.mql5.com/en/docs/series/iMA)  
+- [MQL5 Reference – OnCalculate()](https://www.mql5.com/en/docs/event_handlers/oncalculate)  
+- [MetaTrader 5 User Guide](https://www.metatrader5.com/en/terminal/help)  
+- [ChatGPT (OpenAI) – ondersteuning bij debuggen en structuur van logica] (https://chatgpt.com/g/g-p-68e2f91c84608191877c474ba9e5c2fa-mql5-programming/project)
+- YouTube: (https://www.youtube.com/watch?v=T4_cnxomuXQ&list=PLSm2ktNgwGpsVskTX_kgLxqRgULnWnpOZ).  
+
+---
+
+## 📦 Versie
+**v1.0 – 2025**  
+Laatste update: eerste stabiele release met automatische zoneherkenning en multi-SMA trendfilter.
+
+---
+
+## 🧑‍💻 Licentie
+Dit project is uitsluitend bedoeld voor **educatieve en onderzoeksdoeleinden**.  
+Het mag vrij worden gebruikt en aangepast met bronvermelding van de auteur.
+
+---
 
 
 
