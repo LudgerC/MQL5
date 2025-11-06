@@ -179,6 +179,7 @@ Druk op **Ctrl + N** en zoek voor Expert Advisors -> Market, daar zal de tool zi
 <img width="563" height="298" alt="image" src="https://github.com/user-attachments/assets/a1edbf6c-e880-440d-812b-5a5fb3d552c7" />
 
 Je kunt enkele instellingen aanpassen (optioneel).
+
 <img width="571" height="276" alt="image" src="https://github.com/user-attachments/assets/9b31c24d-ef13-4b3d-8d02-f411a0d18ab3" />
 
 druk op "ok"
