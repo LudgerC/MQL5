@@ -50,13 +50,13 @@ Klik met de rechtermuisknop op de grafiek.
 
 <img width="331" height="768" alt="image" src="https://github.com/user-attachments/assets/b269a839-d49f-4465-abeb-2b5a11643e31" />
 
-ga naar properties en gebruike deze instellingen.
+Ga naar Properties en gebruik deze instellingen
 
 <img width="752" height="490" alt="image" src="https://github.com/user-attachments/assets/da3e76b3-b556-46a0-bf21-051a5e1f6535" />
 <img width="725" height="480" alt="image" src="https://github.com/user-attachments/assets/f27a90f9-1f1d-4f15-9888-e2297d853e68" />
 
-Bewaar het template als Default.tpl.
-Klik met de rechtermuisknop op de grafiek.
+Bewaar het template als Default.tpl. 
+Klik vervolgens opnieuw met de rechtermuisknop op de grafiek.
 
 <img width="558" height="564" alt="image" src="https://github.com/user-attachments/assets/b016d99d-d00b-489b-9bca-e3e972356e31" />
 <img width="961" height="499" alt="image" src="https://github.com/user-attachments/assets/e8368a8d-8e1d-4134-91e0-4d691cd93dc5" />
@@ -109,7 +109,7 @@ Druk op **Ctrl + N** om het venster **“Navigator”** te openen, en zoek Indic
 <img width="266" height="242" alt="image" src="https://github.com/user-attachments/assets/6d1271b5-c9de-4cdc-be49-377e77385f99" />
 
 Open de grafiek die je wilt gebruiken, klik met de rechtermuisknop op de indicator in de Navigator en kies “Attach to chart”.
-dit pop-up zal open zijn waar jij kan het indicator inputs aanpassen en het colors:
+Dit venster zal openen, waar je de indicator-instellingen en kleuren kunt aanpassen:
 
 <img width="572" height="307" alt="image" src="https://github.com/user-attachments/assets/1de7bd6e-c6d5-4bee-8dd9-c7958029483a" />
 
@@ -127,21 +127,32 @@ Rechtsboven zie je de Trend-status (bijv. Strong Buy, Buy, Sell, Strong Sell).
 
 <img width="254" height="91" alt="image" src="https://github.com/user-attachments/assets/ee9c56d8-f36b-4c02-a69c-e0e202d7f77f" />
 
-Er zal ook de zones zijn, dan elke gebruiker kan zijn eigen manier gebruiken om te traden, sommige start de trading manuel en wanneer het prijs de zone raakt. 
-Ik gebruik meestal Pending Orders, zodat de trade automatisch start wanneer de prijs de zone raakt. 
-Ik plaats de instap in het midden van de zone. Mijn Stop Loss ligt net buiten de zone, en mijn Take Profit is 2× zo groot als mijn risico (Risk/Reward = 1:2).
-Om de bereking te doen van de lots (lots is wat definieert hoeveel geld in zal instekken in het trade, elke symbool heeft zijn eigen waarde per lot) ik gebruik een tool van de market dat ik zal u ook raden om te gebruiken. 
+De indicator markeert automatisch supply- en demand-zones.
+Hoe je daaruit trade, hangt af van jouw stijl:
 
-Ga naar bovenrecht op deze icon:
+- Sommige traders openen een Market Order wanneer de prijs de zone raakt.
+- Anderen gebruiken pending orders, zodat de trade automatisch wordt geplaatst wanneer de prijs terugkeert naar de zone.
+Ik gebruik zelf meestal Pending Orders:
+- Entry: ongeveer in het midden van de zone
+- Stop Loss: net buiten de zone
+- Take Profit: ongeveer 2× het risico (Risk/Reward = 1:2)
+
+Voor het berekenen van de lotgrootte (het bedrag dat je riskeert) gebruik ik een position size calculator uit de MQL5 Market.
+Ik raad aan dat ook te doen, omdat elke markt en elk symbool een andere waarde per lot heeft.
+
+Ga rechtsboven naar dit icoon:
 <img width="83" height="50" alt="image" src="https://github.com/user-attachments/assets/e62be6fc-46fa-47e7-8073-7dcd638b4d29" />
 
-daar zal jij een account mql5 moeten maken (jij kan dit account gebruiken in andere MT5, in het gevaal dat jij gebruikt een MQL5 van een broker, jij heb een broker sowieso nodig, maar elke broker kan zijn           eigen MT5 maken of jij kan gewoon de MT5 van MetaTrader5 direct gebruiken maar zal jij moet specifieren bij welke brooker jij bent en welke server, alles deze info's krijg jij van een brooker. bij Metatrader zelf kan jij een demo account maken zonder een brooker)
+Daar moet je een MQL5-account aanmaken.
+Dat account kan je gebruiken in elke MetaTrader 5-installatie.
+Je hebt sowieso een broker nodig om te kunnen traden — elke broker biedt vaak zijn eigen MT5-versie aan. Je kunt ook de officiële MetaTrader 5 downloaden, maar dan moet je zelf de broker en server selecteren (deze gegevens krijg je van je broker).
+Als je nog geen broker hebt, kan je in MetaTrader zelf ook een demo-account aanmaken, zonder broker, om te oefenen.
 
-wanneer jij ingelog bent in MQL5 jij zal kunnen naar de market gaan, druk **Ctrl + T** jij zal de terminal openen:
+Wanneer je bent ingelogd in MQL5 kun je naar de Market gaan, druk **Ctrl + T** je zal de terminal openen:
 
 <img width="1915" height="226" alt="image" src="https://github.com/user-attachments/assets/811e0e61-2df4-459f-8aac-5d4459849ace" />
 
-en recht onderaan kan jij het market zien, druk erop:
+Onderaan rechts zie je het tabblad Market — klik erop:
 
 <img width="395" height="101" alt="image" src="https://github.com/user-attachments/assets/2ebfa08b-2a0c-4a05-99a1-1a2de2552878" />
 
@@ -153,11 +164,11 @@ Dit is de tool en die is volledig gratis:
 
 <img width="205" height="271" alt="image" src="https://github.com/user-attachments/assets/a589838a-c973-4a3d-9409-5293ebe50ee0" />
 
-in de pagina van de tool zal jij alle info's kunnen zien:
+in de pagina van de tool zal je alle info's kunnen zien:
 
 <img width="1610" height="709" alt="image" src="https://github.com/user-attachments/assets/0066568c-c377-416a-a795-5c7652624d35" />
 
-les alle info's! dan druk op download
+Lees alle informatie aandachtig door en klik vervolgens op Download.
 
 <img width="122" height="36" alt="image" src="https://github.com/user-attachments/assets/1dda83a1-110d-4f18-9ceb-1440c35419b4" />
 
@@ -167,22 +178,22 @@ Druk op **Ctrl + N** en zoek voor Expert Advisors -> Market, daar zal de tool zi
 
 <img width="563" height="298" alt="image" src="https://github.com/user-attachments/assets/a1edbf6c-e880-440d-812b-5a5fb3d552c7" />
 
-deze indicator kan jij ook sommige inputs aanpassen (het is niet nodig)
+Je kunt enkele instellingen aanpassen (optioneel).
 <img width="571" height="276" alt="image" src="https://github.com/user-attachments/assets/9b31c24d-ef13-4b3d-8d02-f411a0d18ab3" />
 
 druk op "ok"
 
-het kan zijn dat dit voor de Tool blijf
+Het kan zijn dat dit venster zichtbaar blijft.
 
 <img width="210" height="93" alt="image" src="https://github.com/user-attachments/assets/515759e0-02d1-48c4-af9f-ffd51803f77e" />
 
-om dit te weg van jou screen te hebben moet jij op deze icon drukken:
+Om dit te verbergen, klik op dit icoon:
 
 <img width="32" height="22" alt="image" src="https://github.com/user-attachments/assets/a7470b95-6e3c-4200-bc69-988b7d9b1651" />
 
 of druk **Alt + T**
 
-Jij kan het balance aanpassen of gwn jou eigen laten, de balance kan soms niet het totaal zijn van jou capital, omdat deze tool werkt met ***Free margin** elke open trading of **peding order** gebruikt een beetje van de margin, deze margin is een soort garantie voor de brooker. 
+Je kunt het Balance-veld aanpassen, of gewoon je huidige balans laten staan., de balance kan soms niet het totaal zijn van jou capital, omdat deze tool werkt met ***Free margin** elke open trading of **peding order** gebruikt een beetje van de margin, deze margin is een soort garantie voor de brooker. 
 
 <img width="457" height="36" alt="image" src="https://github.com/user-attachments/assets/85dcd2c3-07bc-41c4-94df-c7c267c7ca5e" />
 
@@ -190,11 +201,11 @@ ik pas die aan altijd naar de totaal capital van de account
 
 <img width="128" height="50" alt="image" src="https://github.com/user-attachments/assets/efaa5317-ac9a-4cb6-9712-d62d59c9254e" />
 
-**Risk %** en **TP to SL %** ik laat op 1 en 200, het wilt zeggen dat het risco van de trading mag gewoon 1% zijn en die 200% betekent dat de TP (take profit) moet 2 keer zijn de risico, dus ik moet een profit van 2% hebben. 
+**Risk %** en **TP to SL %** ik laat op 1 en 200, het wilt zeggen dat het risico per trade bedraagt 1%. en die 200% betekent dat de Take Profit 2× je risico is (Risk/Reward = 1:2)., dus ik moet een profit van 2% hebben. 
 
 <img width="461" height="53" alt="image" src="https://github.com/user-attachments/assets/2ff40120-2424-4d9f-a237-8d5285e14fae" />
 
-als dit ingesteld is druk op "**X**" en dit zal op het scherm komen, en jij zal die kunnen bewegen.
+als dit ingesteld is druk op "**X**" en dit zal op het scherm komen, en je zal die kunnen bewegen.
 
 <img width="411" height="199" alt="image" src="https://github.com/user-attachments/assets/9e1dbaf0-94e2-4b45-9bce-d62fa10a219e" />
 
@@ -219,7 +230,7 @@ de tool zal zo worden:
 
 **Pending order**
 
-om een ***Pending order*** te instellen moet jij op **F9** drukken of op New Order:
+om een ***Pending order*** te instellen moet je op **F9** drukken of op New Order:
 
 <img width="221" height="52" alt="image" src="https://github.com/user-attachments/assets/ec90dcff-d236-4bcc-9e47-c4ae37dc3fee" />
 
@@ -237,7 +248,7 @@ We gaan deze verkoop trading gebruiken als een voorbeeld:
 
 dit zijn de informaties dat we nodig hebbe:
 
-1. "TYPE" dus het zou een "Buy limit" of een "Sell limit" kunnen zijn, in dit geval is het een Sell limit. jij kan het zien in de tool:
+1. "TYPE" dus het zou een "Buy limit" of een "Sell limit" kunnen zijn, in dit geval is het een Sell limit. je kan het zien in de tool:
    
 <img width="85" height="39" alt="image" src="https://github.com/user-attachments/assets/efc62e90-2020-44aa-9908-0ce13c71c8c7" />
 
@@ -257,7 +268,7 @@ dit zijn de informaties dat we nodig hebbe:
    
 <img width="75" height="36" alt="image" src="https://github.com/user-attachments/assets/89c3d950-c82d-4ef6-83cb-bbc052adafdd" />
 
-Met deze informatie kan jij de new order invullen:
+Met deze informatie kan je de new order invullen:
 
 <img width="1159" height="392" alt="image" src="https://github.com/user-attachments/assets/943558b8-a46a-40bd-bde9-799bd0ba81ef" />
 
@@ -265,11 +276,11 @@ dan druk op "Place":
 
 <img width="448" height="121" alt="image" src="https://github.com/user-attachments/assets/1a88cbce-094f-445b-a632-11c943ebe768" />
 
-de order is geplaats:
+De order is geplaatst:
 
 <img width="647" height="172" alt="image" src="https://github.com/user-attachments/assets/fd044b77-82d8-48e1-91c3-365f9d9ad9d0" />
 
-om de order te verwijderen kan jij dubbel klikken op de gronen strepje en het zal een venster openen en druk op "Delete":
+Om de order te verwijderen, dubbelklik op de groene streep. en het zal een venster openen en druk op "Delete":
 
 <img width="203" height="50" alt="image" src="https://github.com/user-attachments/assets/e7565025-af44-415a-b9a8-71c49b001784" />
 
@@ -280,7 +291,7 @@ Open de Terminal (Ctrl + T), zoek je order in de lijst en klik op het kruisje om
 
 <img width="1887" height="31" alt="image" src="https://github.com/user-attachments/assets/76df2856-d3e3-4cd0-b23c-81232cbd06e8" />
 
-jij kan ook dit doen voor een order die al geopen bent, bv:
+je kan ook dit doen voor een order die al geopen bent, bv:
 
 <img width="1883" height="68" alt="image" src="https://github.com/user-attachments/assets/9612b66a-7c98-4d1f-803b-63b2c3c113bd" />
 
@@ -288,7 +299,7 @@ jij kan ook dit doen voor een order die al geopen bent, bv:
 
 <img width="819" height="370" alt="image" src="https://github.com/user-attachments/assets/f51cdfac-978c-4928-b52b-27ce08e01a20" />
 
-Het informaties is correct ingevuld, maar het minimum lot voor deze symbool is 10.00 lot, dit zou ik nooit kunnen openen met mijn actuele capital zonder een grote risico te nemen, of ik trade met meer capital of ik zoek een andere broker, in een andere broker kan het zijn dat ze laat traden met 0.01 Om de minimale lot-grootte van een symbool te controleren, druk op Ctrl + M, klik op het symbool en kies “Specifications”:
+De informatie is correct ingevuld., maar de minimale lotgrootte voor dit symbool is 10.00 lot., dit zou ik nooit kunnen openen met mijn actuele capital zonder een grote risico te nemen, of ik trade met meer capital of ik zoek een andere broker, in een andere broker kan het zijn dat ze laat traden met 0.01 Om de minimale lot-grootte van een symbool te controleren, druk op Ctrl + M, klik op het symbool en kies “Specifications”:
 
 <img width="282" height="340" alt="image" src="https://github.com/user-attachments/assets/33fdc78f-f61a-4012-9279-2b3aa1a6b215" />
 
