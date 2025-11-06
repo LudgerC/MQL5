@@ -357,7 +357,7 @@ Laatste update: eerste stabiele release met automatische zoneherkenning en multi
 Dit project is uitsluitend bedoeld voor **educatieve en onderzoeksdoeleinden**.  
 
 ---
----
+
 
 
 
